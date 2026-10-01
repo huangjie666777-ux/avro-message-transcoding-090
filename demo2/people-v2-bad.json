@@ -1,0 +1,9 @@
+{"entries":[
+ {"subject":"people","expectedLatest":1,"compatibility":"BACKWARD","schema":
+  {"type":"record","name":"people.Person","fields":[
+    {"name":"id","type":"long"},
+    {"name":"home","type":"shared.Address"},
+    {"name":"age","type":"int"}
+  ]},
+  "references":[{"name":"shared.Address","subject":"addresses","version":1}]}
+]}

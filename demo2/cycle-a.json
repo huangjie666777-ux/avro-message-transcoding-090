@@ -1,0 +1,9 @@
+{"entries":[
+ {"subject":"ca","expectedLatest":0,"compatibility":"FULL","schema":
+  {"type":"record","name":"cyc.A","fields":[{"name":"b","type":"cyc.B"}]},
+  "references":[{"name":"cyc.B","subject":"cb"}]},
+ {"subject":"cb","expectedLatest":0,"compatibility":"FULL","schema":
+  {"type":"record","name":"cyc.B","fields":[
+    {"name":"a","type":["null","cyc.A"],"default":null}]},
+  "references":[{"name":"cyc.A","subject":"ca"}]}
+]}

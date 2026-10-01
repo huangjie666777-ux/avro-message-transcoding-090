@@ -1,0 +1,5 @@
+{"entries":[
+ {"subject":"m","expectedLatest":0,"compatibility":"FULL","schema":
+  {"type":"record","name":"m.M","fields":[{"name":"x","type":"nope.X"}]},
+  "references":[{"name":"nope.X","subject":"ghost","version":3}]}
+]}

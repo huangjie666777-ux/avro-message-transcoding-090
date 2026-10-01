@@ -1,0 +1,4 @@
+{"entries":[
+ {"subject":"orders","expectedLatest":0,"compatibility":"FULL","schema":
+  {"type":"record","name":"ord.Order","fields":[{"name":"n","type":"int","default":8}]}}
+]}

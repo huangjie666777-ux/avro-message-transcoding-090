@@ -1,0 +1,7 @@
+{"entries":[
+ {"subject":"addresses","expectedLatest":1,"compatibility":"FULL","schema":
+  {"type":"record","name":"shared.Address","fields":[
+    {"name":"city","type":"string"},
+    {"name":"zip3","type":["null","string"],"default":null}
+  ]}}
+]}

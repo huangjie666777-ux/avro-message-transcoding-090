@@ -1,0 +1,6 @@
+{"entries":[
+ {"subject":"bad","expectedLatest":0,"compatibility":"FULL","schema":
+  {"type":"record","name":"bad.X","fields":[
+    {"name":"f","type":["null","int"],"default":"not-an-int"}
+  ]}}
+]}

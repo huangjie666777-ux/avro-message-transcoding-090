@@ -1,0 +1,10 @@
+{"entries":[
+ {"subject":"addresses","expectedLatest":0,"compatibility":"FULL","schema":
+  {"type":"record","name":"shared.Address","fields":[{"name":"city","type":"string"}]}},
+ {"subject":"people","expectedLatest":0,"compatibility":"BACKWARD","schema":
+  {"type":"record","name":"people.Person","fields":[
+    {"name":"id","type":"long"},
+    {"name":"home","type":"shared.Address"}
+  ]},
+  "references":[{"name":"shared.Address","subject":"addresses"}]}
+]}
